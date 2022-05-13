@@ -1,9 +1,9 @@
-const ExistingPatients = () => {
+const ExistingPatient = () => {
   return (
     <>
-      <div>ExistingPatients</div>
+      <div>Existing Patients</div>
     </>
   );
 };
 
-export default ExistingPatients;
+export default ExistingPatient;

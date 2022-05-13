@@ -3,7 +3,6 @@ import { Nav, Navbar, Image, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/logo.png';
-import '../../assets/styles/style.css';
 
 const styles = {
   nav: {
@@ -21,12 +20,12 @@ const Header = () => {
       <Navbar
         expanded={expanded}
         expand="lg"
-        bg="white"
-        variant="light"
+        bg="secondary"
+        variant="dark"
         className="sticky-top"
       >
         <Container>
-          <Link to={`/Home`}>
+          <Link to={`/home`}>
             <Navbar.Brand>
               <Image style={styles.logo} src={Logo}></Image>
             </Navbar.Brand>

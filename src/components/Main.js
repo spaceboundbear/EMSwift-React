@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import ExistingPatients from '../pages/ExistingPatient';
 
 import Home from '../pages/Home';
 import Maps from '../pages/Maps';
 import NewPatient from '../pages/NewPatient';
+import ExistingPatient from '../pages/ExistingPatient';
 
 const Main = () => {
   return (
@@ -15,8 +15,8 @@ const Main = () => {
       <Route exact path="/maps" element={<Maps />}></Route>
       <Route
         exact
-        path="existingpatients"
-        element={<ExistingPatients />}
+        path="/existingpatient"
+        element={<ExistingPatient />}
       ></Route>
     </Routes>
   );
